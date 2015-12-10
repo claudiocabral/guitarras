@@ -1,0 +1,5 @@
+\documentclass{book}
+\begin{document}
+\lilypondfile{guitarras.ly}
+\end{document}
+
