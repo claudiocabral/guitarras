@@ -1,5 +1,5 @@
+\language "english"
+\include "electricGuitar1.ly"
 \score{
-  \relative c'{
-    c d e f 
-  }
+  \electricGuitarOne
 }
