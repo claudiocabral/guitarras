@@ -3,19 +3,19 @@ LY = lilypond
 LYTEX = lilypond-book
 LATEX = pdflatex
 OUTPUT_DIR = build
-INCLUDE_LY = ../partitions
+INCLUDE_LY = partitions
 
-all: $(PROJECT).lytex $(PROJECT).tex
+all: mkbuild mkpdf
 
-$(INCLUDE_LY)/*:
+mkbuild:
+	mkdir -p $(OUTPUT_DIR)
 
-$(PROJECT).lytex: $(INCLUDE_LY)/*
-	$(LYTEX) -I $(INCLUDE_LY) -o $(OUTPUT_DIR) -f latex $(PROJECT).lytex	
+mkpdf: $(OUTPUT_DIR)/$(PROJECT).tex
+	cd $(OUTPUT_DIR) ; \
+	$(LATEX) -output-directory . -output-format pdf $(PROJECT).tex
 
-$(PROJECT).tex: $(PROJECT).lytex
-	$(LATEX) -output-directory $(OUTPUT_DIR) -output-format pdf $(PROJECT).tex
-	#tried this when the above line failed, said it couldn't write to guitarras.log:
-#	cd $(OUTPUT_DIR) && $(LATEX) -output-directory $(OUTPUT_DIR) -output-format pdf $(PROJECT).tex
+$(OUTPUT_DIR)/$(PROJECT).tex: $(PROJECT).lytex $(PROJECT).ly $(INCLUDE_LY)/*
+	$(LYTEX) -I../$(INCLUDE_LY) -o $(OUTPUT_DIR) -f latex $(PROJECT).lytex
 
 clean:
 	rm -rf $(OUTPUT_DIR)/*
