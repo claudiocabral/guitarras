@@ -10,7 +10,7 @@
 \begin{document}
 \title{Guitarras}
 \author{Claudio Cabral}
-
+%
 \maketitle
 Cette musique est composée de $N$ sections,
 avec $ N = 2x + 1,  x \in \mathbb{N}, x \leq 7 $.
@@ -45,7 +45,25 @@ D.  partition écrite\\
 I.  harmoniques longues\\
 O.  accord de l'ensemble donné joué dans le rythme indiqué.\\
 
+\section*{Extrait C}
+\lilypondfile{partitions/extrait-C/extrait-C.ly}
+
+\section*{Extrait L}
+\lilypondfile{partitions/extrait-L/extrait-L.ly}
+
 \section*{Extrait A}
-\lilypondfile{guitarras.ly}
+\lilypondfile{partitions/extrait-A/extrait-A.ly}
+
+\section*{Extrait U}
+\lilypondfile{partitions/extrait-U/extrait-U.ly}
+
+\section*{Extrait D}
+\lilypondfile{partitions/extrait-D/extrait-D.ly}
+
+\section*{Extrait I}
+\lilypondfile{partitions/extrait-I/extrait-I.ly}
+
+\section*{Extrait O}
+\lilypondfile{partitions/extrait-O/extrait-O.ly}
 
 \end{document}

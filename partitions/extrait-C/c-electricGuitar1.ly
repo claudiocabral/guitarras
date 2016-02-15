@@ -1,0 +1,3 @@
+electricGuitarOne = \relative c {
+  e
+}

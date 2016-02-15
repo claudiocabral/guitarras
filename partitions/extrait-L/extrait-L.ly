@@ -1,11 +1,11 @@
 \language "english"
-\include "electricGuitar1.ly"
-\include "electricGuitar2.ly"
-\include "electricGuitar3.ly"
-\include "electricGuitar4.ly"
-\include "classicGuitar1.ly"
-\include "classicGuitar2.ly"
-\include "classicGuitar3.ly"
+\include "l-electricGuitar1.ly"
+\include "l-electricGuitar2.ly"
+\include "l-electricGuitar3.ly"
+\include "l-electricGuitar4.ly"
+\include "l-classicGuitar1.ly"
+\include "l-classicGuitar2.ly"
+\include "l-classicGuitar3.ly"
 
 \score{
   <<
