@@ -9,36 +9,54 @@
 
 \score{
   <<
-        \electricGuitarOne
-    \new Staff{
-      \new Voice{
-        \electricGuitarTwo
-      }
+    \new Staff \with {
+      instrumentName = #"Electric Guitar 1"
+      shortInstrumentName = #"E.G. 1"
     }
-    \new Staff{
-      \new Voice{
-        \electricGuitarThree
-      }
+    {
+      \electricGuitarOne
     }
-    \new Staff{
-      \new Voice{
-        \electricGuitarFour
-      }
+    \new Staff \with {
+      instrumentName = #"Electric Guitar 2"
+      shortInstrumentName = #"E.G. 2"
     }
-    \new Staff{
-      \new Voice{
-        \classicGuitarOne
-      }
+    {
+      \electricGuitarTwo
     }
-    \new Staff{
-      \new Voice{
-        \classicGuitarTwo
-      }
+    \new Staff \with {
+      instrumentName = #"Electric Guitar 3"
+      shortInstrumentName = #"E.G. 3"
     }
-    \new Staff{
-      \new Voice{
-        \classicGuitarThree
-      }
+    {
+      \electricGuitarThree
+    }
+    \new Staff \with {
+      instrumentName = #"Electric Guitar 4"
+      shortInstrumentName = #"E.G. 4"
+    }
+    {
+      \electricGuitarFour
+    }
+    \new Staff \with {
+      instrumentName = #"Acoustic Guitar 1"
+      shortInstrumentName = #"A.G. 1"
+    }
+    {
+      \classicGuitarOne
+    }
+    \new Staff \with {
+      instrumentName = #"Acoustic Guitar 2"
+      shortInstrumentName = #"A.G. 2"
+    }
+    {
+      \classicGuitarTwo
+    }
+    \new Staff \with {
+      instrumentName = #"Acoustic Guitar 3"
+      shortInstrumentName = #"A.G. 3"
+    }
+    {
+      \classicGuitarThree
     }
   >>
 }

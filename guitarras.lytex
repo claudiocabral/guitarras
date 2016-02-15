@@ -12,24 +12,25 @@
 \author{Claudio Cabral}
 
 \maketitle
-Cette musique est composée de $N$ parties, avec $ N = 2x + 1,  x \in \mathbb{N}, x \leq 7 $.
+Cette musique est composée de $N$ sections,
+avec $ N = 2x + 1,  x \in \mathbb{N}, x \leq 7 $.
 \par
-Les interprètes doivent commencer à jouer ensemble à la partie HUM.
+Les interprètes doivent commencer à jouer ensemble à l'extrait HUM.
 Ensuite, en essayant de former des sous groupes,
 les interprètes doivent se diriger arbitrairement 
-à l'une des parties nommées par une lettre
+à l'un des extrais nommé par une lettre
 qu'il n'ait pas encore joué.
 \par
 Ce processus peut se répéter jusqu'à que les
-interprètes n'aient plus des parties nommées
+interprètes n'aient plus des extrais nommés
 par une lettre à jouer, jouant toujours
-la partie HUM ensemble avant d'avancer
-vers une partie nommée par une lettre.
+l'extrait HUM ensemble avant d'avancer
+vers un extrait nommé par une lettre.
 \par
 La musique finit nécessairement avec l'exécution
-de la partie HUM.
+de l'extrait HUM.
 \par
-Parties:
+Extraits:
 \par
 HUM.  notes longues à la hauteur indiquée
     à chaque répétition la note jouée doit
@@ -44,6 +45,7 @@ D.  partition écrite\\
 I.  harmoniques longues\\
 O.  accord de l'ensemble donné joué dans le rythme indiqué.\\
 
+\section*{Extrait A}
 \lilypondfile{guitarras.ly}
 
 \end{document}
