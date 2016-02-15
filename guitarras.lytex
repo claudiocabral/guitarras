@@ -12,7 +12,7 @@
 \author{Claudio Cabral}
 
 \maketitle
-Cette musique est composée de N parties, $ N = x * 2 + 1,  x \in \mathbb{N}, N \leq 15 $.
+Cette musique est composée de $N$ parties, avec $ N = 2x + 1,  x \in \mathbb{N}, x \leq 7 $.
 \par
 Les interprètes doivent commencer à jouer ensemble à la partie HUM.
 Ensuite, en essayant de former des sous groupes,
