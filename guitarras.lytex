@@ -1,5 +1,49 @@
-\documentclass{book}
-\begin{document}
-\lilypondfile{guitarras.ly}
-\end{document}
+\documentclass[a4paper]{article}
 
+\usepackage[frenchb]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.5cm}
+
+\begin{document}
+\title{Guitarras}
+\author{Claudio Cabral}
+
+\maketitle
+Cette musique est composée de N parties, $ N = x * 2 + 1,  x \in \mathbb{N}, N \leq 15 $.
+\par
+Les interprètes doivent commencer à jouer ensemble à la partie HUM.
+Ensuite, en essayant de former des sous groupes,
+les interprètes doivent se diriger arbitrairement 
+à l'une des parties nommées par une lettre
+qu'il n'ait pas encore joué.
+\par
+Ce processus peut se répéter jusqu'à que les
+interprètes n'aient plus des parties nommées
+par une lettre à jouer, jouant toujours
+la partie HUM ensemble avant d'avancer
+vers une partie nommée par une lettre.
+\par
+La musique finit nécessairement avec l'exécution
+de la partie HUM.
+\par
+Parties:
+\par
+HUM.  notes longues à la hauteur indiquée
+    à chaque répétition la note jouée doit
+    être plus grave, plus rapidement attaquée
+    et plus fortes que celle d'avant
+\par
+C.  glissandi dans une même corde\\
+L.  notes courtes dans un intervale mélodique déterminé.\\
+A.  partition écrite\\
+U.  sons sans hateur définie\\
+D.  partition écrite\\
+I.  harmoniques longues\\
+O.  accord de l'ensemble donné joué dans le rythme indiqué.\\
+
+\lilypondfile{guitarras.ly}
+
+\end{document}

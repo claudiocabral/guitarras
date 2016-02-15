@@ -1,0 +1,31 @@
+Cette musique est composée de N parties, N = x * 2 + 1; x € naturelles et N <= 15;
+
+Les interprètes doivent commencer à jouer ensemble à la partie 1.
+Ensuite, en essayant de former des sous groupes,
+les interprètes doivent se diriger arbitrairement 
+à l'une des parties nommées par une lettre
+qu'il n'ait pas encore joué.
+
+Ce processus peut se répéter jusqu'à que les
+interprètes n'aient plus des parties nommées
+par une lettre à jouer, jouant toujours
+la partie 1 ensemble avant d'avancer
+vers une partie nommée par une lettre.
+
+La musique finit nécessairement avec l'exécution
+de la partie 1
+
+Parties:
+
+1.  notes longues à la hauteur indiquée
+    à chaque répétition la note jouée doit
+    être plus grave, plus rapidement attaquée
+    et plus fortes que celle d'avant
+
+C.  glissandi dans une même corde
+L.  notes courtes dans un intervale mélodique déterminé.
+A.  partition écrite
+U.  sons sans hateur définie
+D.  partition écrite
+I.  harmoniques longues
+O.  accord de l'ensemble donné joué dans le rythme indiqué.

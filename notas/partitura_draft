@@ -1,0 +1,29 @@
+Esta música é composta de N partes com N = x * 2 + 1; x € naturais e N <= 15;
+
+Os músicos devem começar a tocar a juntos na parte 1.
+Em seguida, tentando formar pequenos grupos,
+os músicos devem dirigir-se arbitrariamente
+a uma das partes denominadas por letras
+que ele ainda não tenha tocado.
+
+Esse processo pode se repetir até que todas as partes
+denominadas por letras tenham sido tocadas, sempre
+tocando a parte 1 em conjunto antes de avançarem
+para uma parte denominada por letra.
+
+A música termina necessariamente com a execução
+da parte 1.
+
+Partes:
+
+1.  notas atacadas longas na altura indicada.
+    a cada repetição a nota deve ficar mais grave,
+    ser atacada mais rapidamente e com maior intensidade.
+
+C. glissandi numa mesma corda.
+L. notas curtas num determinado intervalo melódico
+A. trecho musical escrito 1
+U. sons sem altura definida
+D. trecho musical escrito 2
+I. harmônicos sustentados
+O. acordes do conjunto indicado no ritmo indicado
