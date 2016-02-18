@@ -1,3 +1,3 @@
-electricGuitarOne = \relative c' {
+electricGuitarOneI = \relative c' {
   c d e f
 }

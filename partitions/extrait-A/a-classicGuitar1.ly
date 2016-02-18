@@ -1,4 +1,4 @@
-classicGuitarOne = \relative c''' {
+classicGuitarOneA = \relative c''' {
   \clef "treble_8"
   c d e f
 }

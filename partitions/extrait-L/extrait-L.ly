@@ -14,49 +14,49 @@
       shortInstrumentName = #"E.G. 1"
     }
     {
-      \electricGuitarOne
+      \electricGuitarOneL
     }
     \new Staff \with {
       instrumentName = #"Electric Guitar 2"
       shortInstrumentName = #"E.G. 2"
     }
     {
-      \electricGuitarTwo
+      \electricGuitarTwoL
     }
     \new Staff \with {
       instrumentName = #"Electric Guitar 3"
       shortInstrumentName = #"E.G. 3"
     }
     {
-      \electricGuitarThree
+      \electricGuitarThreeL
     }
     \new Staff \with {
       instrumentName = #"Electric Guitar 4"
       shortInstrumentName = #"E.G. 4"
     }
     {
-      \electricGuitarFour
+      \electricGuitarFourL
     }
     \new Staff \with {
       instrumentName = #"Acoustic Guitar 1"
       shortInstrumentName = #"A.G. 1"
     }
     {
-      \classicGuitarOne
+      \classicGuitarOneL
     }
     \new Staff \with {
       instrumentName = #"Acoustic Guitar 2"
       shortInstrumentName = #"A.G. 2"
     }
     {
-      \classicGuitarTwo
+      \classicGuitarTwoL
     }
     \new Staff \with {
       instrumentName = #"Acoustic Guitar 3"
       shortInstrumentName = #"A.G. 3"
     }
     {
-      \classicGuitarThree
+      \classicGuitarThreeL
     }
   >>
 }

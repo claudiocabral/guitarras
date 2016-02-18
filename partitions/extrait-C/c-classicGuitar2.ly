@@ -1,4 +1,4 @@
-classicGuitarTwo =
+classicGuitarTwoC =
 \relative c' {
   c d e f
 }
