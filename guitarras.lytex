@@ -3,6 +3,7 @@
 \usepackage[frenchb]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{amsfonts}
+\usepackage{geometry}
 
 \setlength{\parindent}{0cm}
 \setlength{\parskip}{0.5cm}
@@ -28,8 +29,8 @@ D.  partition écrite\\
 I.  harmoniques longues\\
 O.  accord de l'ensemble donné joué dans le rythme indiqué.\\
 \par
-Quand pertinent, un extrait possède aussi des règles supplementaires
-indiquées sur porté dans
+Quand pertinent, un extrait peut avoir aussi des indications supplementaires
+indiquées sur porté dans une partition en annexe
 
 Cette musique est composée de $N$ sections,
 avec $ N = 2x + 1,  x \in \mathbb{N}, x \leq 7 $.\\
@@ -55,8 +56,9 @@ vers un extrait nommé par une lettre.
 La musique finit nécessairement avec l'exécution
 de l'extrait HUM.
 \par
+\newgeometry{left=1cm,right=0cm}
 \section*{Guitare Électrique 1}
-\lilypondfile{partitions/parts/electric-guitar-1.ly}
+\lilypondfile[staffsize=18]{partitions/parts/electric-guitar-1.ly}
 %\section*{Extrait C}
 %\lilypondfile{partitions/extrait-C/extrait-C.ly}
 %

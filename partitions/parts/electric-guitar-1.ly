@@ -1,5 +1,6 @@
 \language "english"
 
+\include "hum-electricGuitar1.ly"
 \include "c-electricGuitar1.ly"
 \include "l-electricGuitar1.ly"
 \include "a-electricGuitar1.ly"
@@ -10,6 +11,12 @@
 
 \score {
   <<
+    \new Staff \with {
+      instrumentName = #"Extrait HUM"
+    }
+    {
+      \electricGuitarOneHUM
+    }
     \new Staff \with {
       instrumentName = #"Extrait C" 
     } 

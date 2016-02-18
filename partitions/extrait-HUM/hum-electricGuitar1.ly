@@ -1,8 +1,9 @@
-electricGuitarOneC = \relative c {
-  \omit Staff.TimeSignature
+electricGuitarOneHUM = \relative c' {
   \clef "treble_8"
+  \omit Staff.TimeSignature
   \once \set Staff.TimeSignatureFraction = 4/4
   \scaleDurations 15/20 
-  a1
+  g1 
   \once \set Staff.whichBar = ".|"
+  \stopStaff
 }

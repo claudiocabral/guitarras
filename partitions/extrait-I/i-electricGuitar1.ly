@@ -1,3 +1,4 @@
 electricGuitarOneI = \relative c' {
-  c d e f
+  \omit Staff.TimeSignature
+  \omit Staff.Clef
 }
