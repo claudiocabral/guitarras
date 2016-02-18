@@ -12,8 +12,33 @@
 \author{Claudio Cabral}
 %
 \maketitle
+Cette musique est une forme ouverte qui se structure au tour des extraits
+suivants:
+\par
+HUM.  notes longues à la hauteur indiquée
+    à chaque répétition la note jouée doit
+    être plus grave, plus rapidement attaquée
+    et plus fortes que celle d'avant
+\par
+C.  glissandi dans une même corde\\
+L.  notes courtes dans un intervalle mélodique déterminé.\\
+A.  partition écrite\\
+U.  sons sans hauteur définie\\
+D.  partition écrite\\
+I.  harmoniques longues\\
+O.  accord de l'ensemble donné joué dans le rythme indiqué.\\
+\par
+Quand pertinent, un extrait possède aussi des règles supplementaires
+indiquées sur porté dans
+
 Cette musique est composée de $N$ sections,
-avec $ N = 2x + 1,  x \in \mathbb{N}, x \leq 7 $.
+avec $ N = 2x + 1,  x \in \mathbb{N}, x \leq 7 $.\\
+Pour toute section $2x + 1 \in \mathbb{N}$ tout l'ensemble
+doit jour l'extrait HUM.\\
+Pour toute autre section, les interprètes doivent choisir
+arbitrairement un des autres extrait et le jouer, toujours
+en essayant de créer des sous groupes d'interprètes qui
+jouent le même extrait.
 \par
 Les interprètes doivent commencer à jouer ensemble à l'extrait HUM.
 Ensuite, en essayant de former des sous groupes,
@@ -30,40 +55,27 @@ vers un extrait nommé par une lettre.
 La musique finit nécessairement avec l'exécution
 de l'extrait HUM.
 \par
-Extraits:
-\par
-HUM.  notes longues à la hauteur indiquée
-    à chaque répétition la note jouée doit
-    être plus grave, plus rapidement attaquée
-    et plus fortes que celle d'avant
-\par
-C.  glissandi dans une même corde\\
-L.  notes courtes dans un intervalle mélodique déterminé.\\
-A.  partition écrite\\
-U.  sons sans hauteur définie\\
-D.  partition écrite\\
-I.  harmoniques longues\\
-O.  accord de l'ensemble donné joué dans le rythme indiqué.\\
-
-\section*{Extrait C}
-\lilypondfile{partitions/extrait-C/extrait-C.ly}
-
-\section*{Extrait L}
-\lilypondfile{partitions/extrait-L/extrait-L.ly}
-
-\section*{Extrait A}
-\lilypondfile{partitions/extrait-A/extrait-A.ly}
-
-\section*{Extrait U}
-\lilypondfile{partitions/extrait-U/extrait-U.ly}
-
-\section*{Extrait D}
-\lilypondfile{partitions/extrait-D/extrait-D.ly}
-
-\section*{Extrait I}
-\lilypondfile{partitions/extrait-I/extrait-I.ly}
-
-\section*{Extrait O}
-\lilypondfile{partitions/extrait-O/extrait-O.ly}
+\section*{Guitare Électrique 1}
+\lilypondfile{partitions/parts/electric-guitar-1.ly}
+%\section*{Extrait C}
+%\lilypondfile{partitions/extrait-C/extrait-C.ly}
+%
+%\section*{Extrait L}
+%\lilypondfile{partitions/extrait-L/extrait-L.ly}
+%
+%\section*{Extrait A}
+%\lilypondfile{partitions/extrait-A/extrait-A.ly}
+%
+%\section*{Extrait U}
+%\lilypondfile{partitions/extrait-U/extrait-U.ly}
+%
+%\section*{Extrait D}
+%\lilypondfile{partitions/extrait-D/extrait-D.ly}
+%
+%\section*{Extrait I}
+%\lilypondfile{partitions/extrait-I/extrait-I.ly}
+%
+%\section*{Extrait O}
+%\lilypondfile{partitions/extrait-O/extrait-O.ly}
 
 \end{document}
