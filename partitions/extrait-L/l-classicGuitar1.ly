@@ -1,4 +1,9 @@
-classicGuitarOneL = \relative c' {
+classicGuitarOneL = \relative c {
   \clef "treble_8"
-  c d e f
+  \omit Staff.TimeSignature
+  \once \set Staff.timeSignatureFraction = 8/4
+  \scaleDurations 3/8 {
+    ef1 g
+  }
+  \once \set Staff.whichBar = ".|"
 }
