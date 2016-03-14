@@ -16,54 +16,46 @@
 Cette musique est une forme ouverte qui se structure au tour des extraits
 suivants:
 \par
-HUM.  notes longues à la hauteur indiquée
-    à chaque répétition la note jouée doit
+HUM.  notes longues à la hauteur indiquée.
+    À chaque reprise de cet extrait la note jouée doit
     être plus grave, plus rapidement attaquée
-    et plus fortes que celle d'avant
+    et plus fortes qu'à l'exécution antérieure.
 \par
-C.  glissandi dans une même corde\\
+C.  glissandi dans une même corde.\\
 L.  notes courtes dans un intervalle mélodique déterminé.\\
-A.  partition écrite\\
+A.  partition écrite.\\
 U.  sons sans hauteur définie\\
 D.  partition écrite\\
 I.  harmoniques longues\\
 O.  accord de l'ensemble donné joué dans le rythme indiqué.\\
 \par
-Quand pertinent, un extrait peut avoir aussi des indications supplementaires
-indiquées sur porté dans une partition en annexe
-
+Quand pertinent, un extrait peut avoir aussi des indications supplémentaires
+indiquées sur porté dans une partition en annexe.
+\par
 Cette musique est composée de $N$ sections,
 avec $ N = 2x + 1,  x \in \mathbb{N}, x \leq 7 $.\\
-Pour toute section $2x + 1 \in \mathbb{N}$ tout l'ensemble
+Pour toute section $2x + 1 \in \mathbb{N}$ (les sections impaires) tout l'ensemble
 doit jour l'extrait HUM.\\
 Pour toute autre section, les interprètes doivent choisir
-arbitrairement un des autres extrait et le jouer, toujours
+arbitrairement un des autres extrait à jouer, toujours
 en essayant de créer des sous groupes d'interprètes qui
-jouent le même extrait.
-\par
-Les interprètes doivent commencer à jouer ensemble à l'extrait HUM.
-Ensuite, en essayant de former des sous groupes,
-les interprètes doivent se diriger arbitrairement 
-à l'un des extrais nommé par une lettre
-qu'il n'ait pas encore joué.
-\par
-Ce processus peut se répéter jusqu'à que les
-interprètes n'aient plus des extrais nommés
-par une lettre à jouer, jouant toujours
-l'extrait HUM ensemble avant d'avancer
-vers un extrait nommé par une lettre.
+jouent le même extrait. À l'exception de l'extrait HUM
+aucun extrait peut être joué plus qu'une fois par le
+même musicien.
 \par
 La musique finit nécessairement avec l'exécution
 de l'extrait HUM.
 \par
 \newgeometry{left=1cm,right=0cm}
+%
 \section*{Guitare Électrique 1}
 \lilypondfile[staffsize=18]{partitions/parts/electric-guitar-1.ly}
-%\section*{Extrait C}
-%\lilypondfile{partitions/extrait-C/extrait-C.ly}
 %
-%\section*{Extrait L}
-%\lilypondfile{partitions/extrait-L/extrait-L.ly}
+\section*{Extrait C}
+\lilypondfile{partitions/extrait-C/extrait-C.ly}
+%
+\section*{Extrait L}
+\lilypondfile{partitions/extrait-L/extrait-L.ly}
 %
 %\section*{Extrait A}
 %\lilypondfile{partitions/extrait-A/extrait-A.ly}
