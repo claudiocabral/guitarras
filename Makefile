@@ -18,7 +18,7 @@ mkbuild:
 
 makeScore: $(OUTPUT_DIR)/$(PROJECT).tex
 	@cd $(OUTPUT_DIR) ; \
-	$(LATEX) -output-directory . -output-format pdf $(PROJECT).tex > /dev/null
+	$(LATEX) -output-directory . -output-format pdf $(PROJECT).tex #> /dev/null
 
 $(OUTPUT_DIR)/$(PROJECT).tex: $(PROJECT).lytex $(INCLUDE_LY_FILES)
 	@rm -rf $(OUTPUT_DIR)/*/

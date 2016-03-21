@@ -1,8 +1,6 @@
 \language "english"
 
 \include "hum-electricGuitar1.ly"
-\include "c-electricGuitar1.ly"
-\include "l-electricGuitar1.ly"
 \include "a-electricGuitar1.ly"
 \include "u-electricGuitar1.ly"
 \include "d-electricGuitar1.ly"
@@ -16,18 +14,6 @@
     }
     {
       \electricGuitarOneHUM
-    }
-    \new Staff \with {
-      instrumentName = #"Extrait C" 
-    } 
-    {
-      \electricGuitarOneC
-    }
-    \new Staff \with {
-      instrumentName = #"Extrait L" 
-    } 
-    {
-      \electricGuitarOneL
     }
     \new Staff \with {
       instrumentName = #"Extrait A" 

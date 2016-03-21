@@ -4,6 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsfonts}
 \usepackage{geometry}
+\usepackage{enumitem}
 
 \setlength{\parindent}{0cm}
 \setlength{\parskip}{0.5cm}
@@ -16,24 +17,21 @@
 Cette musique est une forme ouverte en rondó qui se structure autour des extraits
 suivants:
 \par
-HUM.  notes longues à la hauteur indiquée.
-    À chaque reprise de cet extrait la note jouée doit
-    être plus grave, plus rapidement attaquée
-    et plus fortes qu'à l'exécution antérieure.
-\par
-C.  glissandi dans une même corde.\\
-L.  notes courtes dans un intervalle mélodique déterminé.\\
-A.  partition écrite.\\
-U.  sons sans hauteur définie\\
-D.  partition écrite\\
-I.  accord arppegés\\
-O.  accord de l'ensemble donné joué dans le rythme indiqué.\\
+\begin{description}[align=right]
+    \item[HUM] notes longues à la hauteur indiquée. À chaque reprise de cet extrait la note jouée doit\\
+        être plus grave, plus rapidement attaquée et plus fortes qu'à l'exécution antérieure.\\
+    \item[A] glissandi dans une même corde.\\
+    \item[U] sons sans hauteur définie\\
+    \item[D] notes courtes dans un intervalle mélodique déterminé.\\
+    \item[I] accords arppegés\\
+    \item[O] accord de l'ensemble donné joué dans le rythme indiqué.\\
+\end{description}
 \par
 Quand pertinent, un extrait peut avoir aussi des indications supplémentaires
 indiquées sur porté dans une partition en annexe.
 \par
 Cette musique est composée de $N$ sections,
-avec $ N = 2x + 1,  x \in \mathbb{N}, x \leq 7 $.\\
+avec $ N = 2x + 1,  x \in \mathbb{N}, x \leq 5 $.\\
 Pour toute section $2x + 1 \in \mathbb{N}$ (les sections impaires) tout l'ensemble
 doit jour l'extrait HUM.\\
 Pour toute autre section, les interprètes doivent choisir
@@ -51,20 +49,14 @@ de l'extrait HUM.
 \section*{Guitare Électrique 1}
 \lilypondfile[staffsize=18]{partitions/parts/electric-guitar-1.ly}
 %
-\section*{Extrait C}
-\lilypondfile{partitions/extrait-C/extrait-C.ly}
+\section*{Extrait A}
+\lilypondfile{partitions/extrait-A/extrait-A.ly}
 %
-\section*{Extrait L}
-\lilypondfile{partitions/extrait-L/extrait-L.ly}
+\section*{Extrait U}
+\lilypondfile{partitions/extrait-U/extrait-U.ly}
 %
-%\section*{Extrait A}
-%\lilypondfile{partitions/extrait-A/extrait-A.ly}
-%
-%\section*{Extrait U}
-%\lilypondfile{partitions/extrait-U/extrait-U.ly}
-%
-%\section*{Extrait D}
-%\lilypondfile{partitions/extrait-D/extrait-D.ly}
+\section*{Extrait D}
+\lilypondfile{partitions/extrait-D/extrait-D.ly}
 %
 %\section*{Extrait I}
 %\lilypondfile{partitions/extrait-I/extrait-I.ly}
