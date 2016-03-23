@@ -3,5 +3,5 @@ electricGuitarFourA = \relative c {
   \omit Staff.TimeSignature
   \clef "bass_8"
   c,1
-  \once \set Staff.whichBar = ".|"
+  \once \set Staff.whichBar = "|."
 }

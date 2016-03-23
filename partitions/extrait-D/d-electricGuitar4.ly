@@ -6,5 +6,5 @@ electricGuitarFourD = \relative c {
   \scaleDurations 1/2 {
     af'1 c
   }
-  \once \set Staff.whichBar = ".|"
+  \once \set Staff.whichBar = "|."
 }

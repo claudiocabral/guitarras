@@ -6,5 +6,5 @@ classicGuitarOneD = \relative c {
   \scaleDurations 1/2 {
     ef1 g
   }
-  \once \set Staff.whichBar = ".|"
+  \once \set Staff.whichBar = "|."
 }

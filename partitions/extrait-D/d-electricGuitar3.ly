@@ -6,5 +6,5 @@ electricGuitarThreeD = \relative c' {
   \scaleDurations 1/2 {
     gf1 bf
   }
-  \once \set Staff.whichBar = ".|"
+  \once \set Staff.whichBar = "|."
 }

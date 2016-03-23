@@ -6,5 +6,5 @@ classicGuitarThreeD = \relative c {
   \scaleDurations 1/2 {
     g'1 b
   }
-  \once \set Staff.whichBar = ".|"
+  \once \set Staff.whichBar = "|."
 }

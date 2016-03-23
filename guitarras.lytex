@@ -14,17 +14,16 @@
 \author{Claudio Cabral}
 %
 \maketitle
-Cette musique est une forme ouverte en rondó qui se structure autour des extraits
+Cette musique est une forme ouverte en rondo qui se structure autour des extraits
 suivants:
 \par
 \begin{description}[align=right]
-    \item[HUM] notes longues à la hauteur indiquée. À chaque reprise de cet extrait la note jouée doit\\
-        être plus grave, plus rapidement attaquée et plus fortes qu'à l'exécution antérieure.\\
-    \item[A] glissandi dans une même corde.\\
-    \item[U] sons sans hauteur définie\\
-    \item[D] notes courtes dans un intervalle mélodique déterminé.\\
-    \item[I] accords arppegés\\
-    \item[O] accord de l'ensemble donné joué dans le rythme indiqué.\\
+    \item[HUM] Notes longues à la hauteur indiquée. À chaque reprise jouer plus vite et plus fort
+    \item[A] Glissandi dans une même corde
+    \item[U] Sons sans hauteur définie
+    \item[D] Notes courtes dans un intervalle mélodique déterminé
+    \item[I] Accords arpégés
+    \item[O] Mélodie à partir de l'échelle donnée
 \end{description}
 \par
 Quand pertinent, un extrait peut avoir aussi des indications supplémentaires
@@ -46,22 +45,26 @@ de l'extrait HUM.
 \par
 \newgeometry{left=1cm,right=0cm}
 %
-\section*{Guitare Électrique 1}
-\lilypondfile[staffsize=18]{partitions/parts/electric-guitar-1.ly}
+\section*{Extrait HUM}
+\lilypondfile{partitions/extrait-HUM/extrait-HUM.ly}
 %
 \section*{Extrait A}
 \lilypondfile{partitions/extrait-A/extrait-A.ly}
 %
 \section*{Extrait U}
+%Sans indications supplémentaires
 \lilypondfile{partitions/extrait-U/extrait-U.ly}
 %
 \section*{Extrait D}
 \lilypondfile{partitions/extrait-D/extrait-D.ly}
 %
-%\section*{Extrait I}
-%\lilypondfile{partitions/extrait-I/extrait-I.ly}
+\section*{Extrait I}
+\lilypondfile{partitions/extrait-I/extrait-I.ly}
 %
-%\section*{Extrait O}
-%\lilypondfile{partitions/extrait-O/extrait-O.ly}
-
+\section*{Extrait O}
+\lilypondfile{partitions/extrait-O/extrait-O.ly}
+%
+\section*{Guitare Électrique 1}
+\lilypondfile[staffsize=18]{partitions/parts/electric-guitar-1.ly}
+%
 \end{document}

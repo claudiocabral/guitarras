@@ -23,7 +23,7 @@ makeScore: $(OUTPUT_DIR)/$(PROJECT).tex
 $(OUTPUT_DIR)/$(PROJECT).tex: $(PROJECT).lytex $(INCLUDE_LY_FILES)
 	@rm -rf $(OUTPUT_DIR)/*/
 	@echo "Running lilypond-book"
-	@$(LYTEX) $(INCLUDE_LYBOOK_COMMAND) -o $(OUTPUT_DIR) -f latex $(PROJECT).lytex > /dev/null
+	@$(LYTEX) $(INCLUDE_LYBOOK_COMMAND) -o $(OUTPUT_DIR) -f latex $(PROJECT).lytex #> /dev/null
 
 clean:
 	@echo "Cleaning"

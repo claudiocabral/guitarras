@@ -6,5 +6,5 @@ electricGuitarTwoD = \relative c {
   \scaleDurations 1/2 {
     e1 gs
   }
-  \once \set Staff.whichBar = ".|"
+  \once \set Staff.whichBar = "|."
 }

@@ -1,4 +1,6 @@
-classicGuitarOneI = \relative c' {
+classicGuitarOneI = \relative c {
+  \omit Staff.TimeSignature
   \clef "treble_8"
-  c d e f
+  <a e' f a c e fs>1
+  \once \set Staff.whichBar = "|."
 }

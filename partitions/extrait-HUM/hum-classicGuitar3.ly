@@ -1,7 +1,7 @@
-electricGuitarOneHUM = \relative c {
+classicGuitarThreeHUM = \relative c {
   \time 4/4
   \omit Staff.TimeSignature
   \clef "treble_8"
-  g1
+  fs,1
   \once \set Staff.whichBar = "|."
 }

@@ -1,5 +1,6 @@
-electricGuitarOneI = \relative c' {
+electricGuitarOneI = \relative c {
   \omit Staff.TimeSignature
-  \omit Staff.Clef
-
+  \clef "treble_8"
+  < e' f gf >1
+  \once \set Staff.whichBar = "|."
 }

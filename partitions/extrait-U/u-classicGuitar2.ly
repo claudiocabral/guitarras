@@ -1,4 +1,4 @@
-classicGuitarTwoU =
-\relative c' {
-  c d e f
+classicGuitarTwoU = \relative c' {
+  \omit Staff.TimeSignature
+  \omit Staff.Clef
 }
