@@ -52,8 +52,7 @@ de l'extrait HUM.
 \lilypondfile{partitions/extrait-A/extrait-A.ly}
 %
 \section*{Extrait U}
-%Sans indications supplémentaires
-\lilypondfile{partitions/extrait-U/extrait-U.ly}
+Sans indications supplémentaires
 %
 \section*{Extrait D}
 \lilypondfile{partitions/extrait-D/extrait-D.ly}
