@@ -5,12 +5,13 @@
 \usepackage{amsfonts}
 \usepackage{geometry}
 \usepackage{enumitem}
+\usepackage{graphicx}
 
 \setlength{\parindent}{0cm}
 \setlength{\parskip}{0.5cm}
 
 \begin{document}
-\title{Guitarras}
+\title{Construção\hspace{1ex}\textbar\hspace{1ex}\reflectbox{Constrição}}
 \author{Claudio Cabral}
 %
 \maketitle
@@ -65,5 +66,23 @@ Sans indications supplémentaires
 %
 \section*{Guitare Électrique 1}
 \lilypondfile[staffsize=18]{partitions/parts/electric-guitar-1.ly}
+%
+\section*{Guitare Électrique 2}
+\lilypondfile[staffsize=18]{partitions/parts/electric-guitar-2.ly}
+%
+\section*{Guitare Électrique 3}
+\lilypondfile[staffsize=18]{partitions/parts/electric-guitar-3.ly}
+%
+\section*{Guitare Électrique 4}
+\lilypondfile[staffsize=18]{partitions/parts/electric-guitar-4.ly}
+%
+\section*{Guitare Classique 1}
+\lilypondfile[staffsize=18]{partitions/parts/classic-guitar-1.ly}
+%
+\section*{Guitare Classique 2}
+\lilypondfile[staffsize=18]{partitions/parts/classic-guitar-2.ly}
+%
+\section*{Guitare Classique 3}
+\lilypondfile[staffsize=18]{partitions/parts/classic-guitar-3.ly}
 %
 \end{document}

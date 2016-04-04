@@ -1,4 +1,4 @@
-PROJECT = guitarras
+PROJECT = contrucao-constricao
 LYTEX = lilypond-book
 LATEX = pdflatex
 OUTPUT_DIR = build
